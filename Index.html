@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/B.CSS/BPC2.css">
+    <title>Intuitive Probe</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent #btn #scrollspyfooter">
+  <div class="preloader">
+    <div class="pagination">
+      <div class="page"></div>
+      <div class="page"></div>
+      <div class="page"></div>
+    </div>
+  </div>
+  
+    <!-- ============NAVBAR BEGINS================ -->
+    <header>
+      
+        <nav class="navbar navbar-expand-lg fixed-navbar">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="/Image/probe.png" width="100px" class="img"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars navbar-toggler-icon"></i>
+                <!-- <span class="navbar-toggler-icon"></span> -->
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="margin-left: 10%;">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#scrollspyabout">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#scrollspycourse">Courses</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#scrollspyteacher">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#scrollspyreview">Review</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#scrollspycontact">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="Login.html" target="_blank">Sign Up</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!-- ============NAVBAR ENDS================ -->
+   <!-- -----CAROUSEL BEGIN------- -->
+  <section class="hero" id="hero">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="carousel-background">
+              <img src="/Image/banner.jpg" alt="" >
+              <div class="carousel-container">
+                  <div class="carousel-content-container">
+                    <h2>Welcome to Intuitive Probe Classes</h2>
+                    <p>Welcome to Intuitive Probe Classes, your gateway to mastering programming languages. Explore our comprehensive courses designed to elevate your coding skills and career.</p>
+                    
+                    <div class="button" id="btn">
+                      <a href="#scrollspyservice" class=" button1">Our Sevices</a>
+                      <a href="#scrollspycontact" class="button1">Contact Us</a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="carousel-background">
+              <img src="/Image/banner2.jpeg" alt="" >
+              <div class="carousel-container">
+                  <div class="carousel-content-container">
+                    <h2>Unlock Your Coding Potential</h2>
+                    <p>At Intuitive Probe Classes, we're dedicated to helping you unlock your coding potential. Join us and dive into a world of programming languages, where innovation meets education.</p>
+                    
+                      <div class="button">
+                        <a href="#scrollspyservice" class="button1">Our Sevices</a>
+                        <a href="#scrollspycontact" class="button1">Contact Us</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  
+   <!-- -----CAROUSEL END--------- -->
+
+   <!------ FEATURE INFO BEGIN---->
+   <section class="mt-5 mb-5 feature" id="scrollspyservice">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="main-feature-box">
+            <div class="icon">
+              <i class="fa-solid fa-house-chimney"></i>
+            </div>
+            <h3>Experienced Instructors</h3>
+            <p>Our team of professional instructors has years of experience, ensuring you receive the best education and guidance.</p>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="main-feature-box">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-align-center" viewBox="2 2 12 12">
+                <path d="M8 1a.5.5 0 0 1 .5.5V6h-1V1.5A.5.5 0 0 1 8 1zm0 14a.5.5 0 0 1-.5-.5V10h1v4.5a.5.5 0 0 1-.5.5zM2 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7z"/>
+              </svg>
+            </div>
+            <h3>Flexible Learning</h3>
+            <p>Our courses are designed to fit your schedule. Learn at your own pace and choose the learning style that suits you best.</p>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="main-feature-box">
+            <div class="icon">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <h3>Certifications</h3>
+            <p>Our certifications are widely recognized in the field, making you a standout candidate in your career advancement.</p>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="main-feature-box">
+            <div class="icon">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+            <h3>Modern Facilities</h3>
+            <p>Our state-of-the-art facilities provide a conducive learning environment for your educational journey.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+   <!------ FEATURE INFO END------>
+
+   <!-- --------------ABOUT SECTION START----------------- -->
+   <section class="mt-5 mb-5" id="scrollspyabout" data-bs-offset="100">
+    <div class="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 d-none d-md-flex">
+            <img src="/Image/banner.png" alt="" class="img-fluid">
+          </div>
+          <div class="col-md-6">
+            <div class="about-content">
+              <span style="color: #a504f0; font-size: 20px;">About Us</span>
+              <h2>Welcome to Intuitive Probe</h2>
+              <p>Welcome to Intuitive Probe, where we explore the world of technology and innovation with a passion for discovery. Our mission is to provide valuable insights and resources to help you navigate the ever-changing landscape of modern technology.</p>
+              <p>With a team of dedicated experts, we aim to unravel the mysteries of the digital world and guide you on your journey towards technological enlightenment. Whether you're a curious beginner or a seasoned tech enthusiast, we have something for everyone.</p>
+              <div class="buttons">
+                <a href="" class="button3">Read More <i class="fa-solid fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+   <!-- --------------ABOUT SECTION END------------------- -->
+
+   
+   <!-- --------------COURSES SECTION START----------------- -->
+<section class="mt-5 mb-5 courses" id="scrollspycourse" data-bs-offset="100">
+  <div class="container">
+      <div class="row">
+        <h2 class="text-center heading">Our Best Courses</h2>
+        <span class="hey"></span>
+      </div>
+    <div id="courseCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row mt-5">
+            <!-- Course 1 -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="single-courses-box border" style="padding: 30px 25px;">
+                    <div class="icon">
+                      <img src="/Image/html$css.png" alt="" class="img-fluid" width="50%">
+                    </div>
+                    <h3>HTML & CSS</h3>
+                    <p>
+                      Learn the fundamentals of building web pages with HTML and styling them with CSS. This course covers topics such as creating web forms, responsive design, and more.
+                    </p>
+                    <div class="buttons">
+                      <div class="button3"><a href="">Read More <i class="fa-solid fa-arrow-right"></i></a></div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="single-courses-box border" style="padding: 30px 25px;">
+                    <div class="icon">
+                      <img src="/Image/python.png" alt="" class="img-fluid" width="45%">
+                    </div>
+                    <h3>Python Programming</h3>
+                    <p>
+                      Dive into the world of Python programming. This course covers Python basics, data structures, and how to write Python scripts and applications.
+                    </p>
+                    <div class="buttons">
+                      <div class="button3"><a href="">Read More <i class="fa-solid fa-arrow-right"></i></a></div>
+                    </div>
+                  </div>
+            </div>
+  
+            <!-- Course 3 -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="single-courses-box border">
+                    <div class="icon">
+                      <img src="/Image/javascript.png" alt="" class="img-fluid" width="45%">
+                    </div>
+                    <h3>JavaScript Fundamentals</h3>
+                    <p>
+                      Learn the essentials of JavaScript programming. Explore topics like variables,functions,and DOM manipulation to build interactive web applications.
+                    </p>
+                    <div class="buttons">
+                      <div class="button3"><a href="">Read More <i class="fa-solid fa-arrow-right"></i></a></div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Add more slides with three courses each -->
+        <div class="carousel-item">
+          <div class="row mt-5">
+            <!-- Course 4 -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="single-courses-box border">
+                    <div class="icon">
+                      <img src="/Image/java.png" alt="" class="img-fluid" width="50%">
+                    </div>
+                    <h3>Java Programming</h3>
+                    <p>
+                      Master the Java programming language. This course covers object-oriented programming, Java syntax, and application development.
+                    </p>
+                    <div class="buttons">
+                      <div class="button3"><a href="">Read More <i class="fa-solid fa-arrow-right"></i></a></div>
+                    </div>
+                  </div>
+            </div>
+  
+            <!-- Course 5 -->
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-courses-box border" style="padding: 28px 25px;">
+                  <div class="icon">
+                    <img src="/Image/database.png" alt="" class="img-fluid" width="45%">
+                  </div>
+                  <h3>Database Management</h3>
+                  <p>
+                    Delve into the world of databases.This course covers SQL, database design, and management systems like MySQL and PostgreSQL.
+                  </p>
+                  <div class="buttons">
+                    <div class="button3"><a href="">Read More <i class="fa-solid fa-arrow-right"></i></a></div>
+                  </div>
+                </div>
+          </div>
+  
+            <!-- Course 6 -->
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-courses-box border">
+                  <div class="icon">
+                    <img src="/Image/csharp.png" alt="" class="img-fluid" width="55%">
+                  </div>
+                  <h3>C# Programming</h3>
+                  <p>
+                    Explore the C# programming language and its use in building Windows applications and games. Learn about classes, interfaces, and more.
+                  </p>
+                  <div class="buttons">
+                    <div class="button3"><a href="">Read More <i class="fa-solid fa-arrow-right"></i></a></div>
+                  </div>
+                </div>
+          </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row mt-5">
+            <!-- Course 7 -->
+            <div class="col-lg-4 col-sm-6">
+                <div class="single-courses-box border">
+                    <div class="icon">
+                      <img src="/Image/react.jpeg" alt="" class="img-fluid" width="50%">
+                    </div>
+                    <h3>React</h3>
+                    <p>
+                      Explore React, the JavaScript library for creating dynamic user interfaces. Master the fundamentals, from components to state management. Learn to craft responsive web apps efficiently using React's declarative approach and reusable components.
+                    </p>
+                    <div class="buttons">
+                      <div class="button3"><a href="">Read More <i class="fa-solid fa-arrow-right"></i></a></div>
+                    </div>
+                  </div>
+            </div>
+  
+            <!-- Course 8 -->
+            <div class="col-lg-4 col-sm-6">
+              <div class="single-courses-box border" style="padding: 28px 25px;">
+                  <div class="icon">
+                    <img src="/Image/Artificial.jpeg" alt="" class="img-fluid" width="45%">
+                  </div>
+                  <h3>Artificial Intelligence</h3>
+                  <p>
+                    Dive into the world of Artificial Intelligence (AI). Covering machine learning, deep learning, natural language processing, and more, this course provides hands-on experience and insights into AI's real-world applications and ethical considerations.
+                  </p>
+                  <div class="buttons">
+                    <div class="button3"><a href="">Read More <i class="fa-solid fa-arrow-right"></i></a></div>
+                  </div>
+                </div>
+          </div>
+          </div>
+        </div>
+  
+        <!-- Add more slides as needed -->
+      </div>
+  
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#courseCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon ace a" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#courseCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon ace b" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+   <!-- --------------COURSES SECTION END------------------- -->
+
+
+   <!-- --------------TEACHER SECTION START----------------- -->
+  <section class="container-fluid" id="scrollspyteacher">
+    <div class="teacher" id="teacher">
+      <h1 class="heading">Our Expert Teacher</h1>
+      <span class="hey"></span>
+      <div class="box-container">
+        <!-- TEACHER 1 -->
+        <div class="box">
+          <div class="image">
+            <img src="/Image/image5.jpeg" alt="">
+            <div class="share">
+              <a href="" class="fab fa-facebook-f"></a>
+              <a href="" class="fab fa-twitter"></a>
+              <a href="" class="fab fa-instagram"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Rachael Addison</h3>
+            <span>Programming Languages</span>
+          </div>
+        </div>
+        <!-- TEACHER 2 -->
+        <div class="box">
+          <div class="image">
+            <img src="/Image/image3.jpeg" alt="">
+            <div class="share">
+              <a href="" class="fab fa-facebook-f"></a>
+              <a href="" class="fab fa-twitter"></a>
+              <a href="" class="fab fa-instagram"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>Sarah Johnson</h3>
+            <span>Web Development</span>
+          </div>
+        </div>
+        <!-- TEACHER 3 -->
+        <div class="box">
+          <div class="image">
+            <img src="/Image/image7.jpeg" alt="">
+            <div class="share">
+              <a href="" class="fab fa-facebook-f"></a>
+              <a href="" class="fab fa-twitter"></a>
+              <a href="" class="fab fa-instagram"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>John Michael</h3>
+            <span>Data Science</span>
+          </div>
+        </div>
+        <!-- TEACHER 4 -->
+        <div class="box">
+          <div class="image">
+            <img src="/Image/image4.jpeg" alt="">
+            <div class="share">
+              <a href="" class="fab fa-facebook-f"></a>
+              <a href="" class="fab fa-twitter"></a>
+              <a href="" class="fab fa-instagram"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>David Smith</h3>
+            <span>Mobile App Development</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+   <!-- --------------TEACHER SECTION END------------------- -->
+
+   <!-- --------------REVIEW SECTION START----------------- -->
+   <section class="mt-5 mb-5 review" id="scrollspyreview" data-bs-offset="100">
+    <div class="container">
+      <div class="row">
+        <h2 class="text-center heading">Our Students Review</h2>
+        <span class="hey"></span>
+      </div>
+      <div id="reviewCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active swipper-wrapper">
+            <div class="row mt-5">
+              <!-- Course 1 -->
+              <div class="col-lg-4 col-sm-6">
+                <div class="single-courses-box border swiper-slide" style="padding: 18px 25px;">
+                  <p>"I can't say enough about Intuitive Probe School's online courses. They've boosted my skills and ignited my passion for coding!"
+                  </p>
+                  <div class="wrapper">
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                  </div>
+                  <i class="fas fa-quote-right bam"></i>
+                  <div class="user">
+                    <img src="/Image/student1.jpeg" alt="">
+                    <div class="user-info">
+                      <h3>Emma Martinez</h3>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Course 2 -->
+              <div class="col-lg-4 col-sm-6">
+                <div class="single-courses-box border" style="padding: 30px 25px;">
+                  <p>"I'm thrilled with Intuitive Probe School's online courses. The convenience and quality are unmatched. Bravo!".</p>
+                  <div class="wrapper">
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                  </div>
+                  <i class="fas fa-quote-right bam"></i>
+                  <div class="user">
+                    <img src="/Image/student2.jpeg" alt="">
+                    <div class="user-info">
+                      <h3>Zoe Anderson</h3>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- COURSE 3 -->
+              <div class="col-lg-4 col-sm-6">
+                <div class="single-courses-box border" style="padding: 30px 25px;">
+                  <p>"Intuitive Probe School's online courses are pure gold. They've transformed my coding skills, and I couldn't be happier!"</p>
+                  <div class="wrapper">
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                  </div>
+                  <i class="fas fa-quote-right bam"></i>
+                  <div class="user">
+                    <img src="/Image/student3.jpeg" alt="">
+                    <div class="user-info">
+                      <h3>Mark Johnson</h3>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Add more carousel items with three courses each as needed -->
+          <div class="carousel-item swipper-wrapper">
+            <div class="row mt-5">
+              <!-- Course 4 -->
+              <div class="col-lg-4 col-sm-6">
+                <div class="single-courses-box border swiper-slide" style="padding: 40px 25px;">
+                  <p>Learning here transformed my career. Exceptional instructors and hands-on projects honed my tech expertise."</p>
+                  <div class="wrapper">
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                  </div>
+                  <i class="fas fa-quote-right"></i>
+                  <div class="user">
+                    <img src="/Image/stud5.jpeg" alt="">
+                    <div class="user-info">
+                      <h3>Isabella Anderson</h3>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <!-- Course 5 -->
+              <div class="col-lg-4 col-sm-6">
+                <div class="single-courses-box border" style="padding: 25px 25px;">
+                  <p>"My journey at Intuitive Probe School was incredible. Daniel's teaching and interactive lessons made complex concepts clear."
+                  </p>
+                  <div class="wrapper">
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                  </div>
+                  <i class="fas fa-quote-right"></i>
+                  <div class="user">
+                    <img src="/Image/stud6.jpeg" alt="">
+                    <div class="user-info">
+                      <h3>Chidera Kwame</h3>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <!-- Course 6-->
+               <div class="col-lg-4 col-sm-6">
+                <div class="single-courses-box border" style="padding: 25px 25px;">
+                  <p>"I'm grateful for my time at Intuitive Probe Online School. Mark's guidance and collaborative projects expanded my tech horizons."</p>
+                  <div class="wrapper">
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                  </div>
+                  <i class="fas fa-quote-right"></i>
+                  <div class="user">
+                    <img src="/Image/stud4.jpeg" alt="">
+                    <div class="user-info">
+                      <h3>Julia Alex</h3>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item swipper-wrapper">
+            <div class="row mt-5">
+              <!-- Course 7 -->
+              <div class="col-lg-4 col-sm-6">
+                <div class="single-courses-box border swiper-slide" style="padding: 31px 25px;">
+                  <p>"Intuitive Probe School's online courses are life-changing. I've learned a lot and loved every moment. A fantastic start to your coding journey."</p>
+                  <div class="wrapper">
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                  </div>
+                  <i class="fas fa-quote-right"></i>
+                  <div class="user">
+                    <img src="/Image/stud7.jpeg" alt="">
+                    <div class="user-info">
+                      <h3>Bryan Ogwezi</h3>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <!-- Course 2 -->
+              <div class="col-lg-4 col-sm-6">
+                <div class="single-courses-box border" style="padding: 22px 25px;">
+                  <p>"Intuitive Probe School's flexible platform and expert guidance propelled my tech skills. The supportive network ensured my success."
+                  </p>
+                  <div class="wrapper">
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                  </div>
+                  <i class="fas fa-quote-right"></i>
+                  <div class="user">
+                    <img src="/Image/stud8.jpeg" alt="">
+                    <div class="user-info">
+                      <h3>Trinity Mcburg</h3>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <!-- Course 3 -->
+              <div class="col-lg-4 col-sm-6">
+                <div class="single-courses-box border" style="padding: 22px 25px;">
+                  <p>"Online courses at Intuitive Probe School are top-notch. They've turbocharged my tech knowledge, and I'm loving it!"</p>
+                  <div class="wrapper">
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                    <div class="separator"></div>
+                  </div>
+                  <i class="fas fa-quote-right"></i>
+                  <div class="user">
+                    <img src="/Image/stud9.jpeg" alt="">
+                    <div class="user-info">
+                      <h3>Daniel Esabilue</h3>
+                      <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Add more carousel items with three courses each as needed -->
+        </div>
+  
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#reviewCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#reviewCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  
+   <!-- --------------REVIEW SECTION END------------------- -->
+
+   <!-- --------------CHOOSE SECTION START----------------- -->
+  <section class="choose mt-5 mb-s" id="scrollspychoose" data-bs-offset="100">
+    <div class="container">
+      <div class="row">
+        <h2 class="text-center heading">Why we Choose Intuitive Probe</h2>
+        <span class="hey"></span>
+      </div>
+      <div class="row">
+        <!-- CHOOSE 1 -->
+        <div class="col-md-4 col-sm-6 ">
+          <div class="choose-item border mb-3">
+            <img src="/Image/teach.jpeg" alt="">
+            <div>
+              <h3>Experienced Instructors</h3>
+            <p>At Intuitive Probe, we take pride in our team of highly experienced instructors. .With their guidance, you'll gain a strong foundation in programming languages and best practices, setting you on the path to success in the tech industry.</p>
+            </div>
+          </div>
+        </div>
+        <!-- CHOOSE 2 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="choose-item border mb-3">
+            <img src="/Image/curr.jpeg" alt="">
+            <div>
+              <h3>Hands-On Learning</h3>
+              <p>At Intuitive Probe, we believe that hands-on learning is the most effective way to master programming. That's why we provide ample opportunities for you to apply your skills through practical exercises, coding projects, and real-world challenges..</p>
+            </div>
+          </div>
+        </div>
+        <!-- CHOOSE 3 -->
+        <div class="col-md-4 col-sm-6">
+          <div class="choose-item border mb-3">
+            <img src="/Image/resume.jpeg" alt="">
+            <div>
+              <h3>Project-Based Curriculum</h3>
+              <p>Our curriculum is project-focused, allowing you to work on real projects that reinforce your coding skills and creativity.Throughout your journey at Intuitive Probe, you'll have the opportunity to tackle a variety of projects that challenge your creativity and problem-solving skills.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ----------------CHOOSE SECTION ENDS------------------ -->
+  
+
+<!-- ====================CONTACT START========================= -->
+<section id="scrollspycontact">
+  <div class="">
+    <div id="contact">
+      <h2 class="heading" style="margin-bottom: -1%;">Contact</h2>
+      <span class="hey" style="margin-top: -5%;"></span>
+      <div class="contact-row">
+    
+          <!-- Left Col -->
+          <div class="contact-left">
+    
+              <!-- Email Box -->
+              <div class="icon-box">
+                  <a href="https://mail.google.com/mail/u/0/#inbox"class="icon"><i class="fa-solid fa-envelope"></i></a>
+                  <div class="info">
+                      <h4>Email:</h4>
+                      <a href="https://mail.google.com/mail/u/0/#inbox"><p>mazinoishioma@gmail.com</p></a>
+                  </div>
+              </div>
+              <!-- Call Box -->
+              <div class="icon-box">
+                  <a class="icon" href="https://wa.me/2349077318070?text=Hello,%20I'm%20interested%20in%20your%20services.%20I%20would%20like%20to%20discuss%20my%20project%20requirements%20and%20explore%20how%20we%20can%20work%20together%20to%20bring%20my%20vision%20to%20reality." target="_blank">
+                      <i class="fa-solid fa-phone"></i>
+                  </a>
+                  <div class="info">
+                      <h4>Call:</h4>
+                      <a href="https://wa.me/2349077318070?text=Hello,%20I'm%20interested%20in%20your%20services.%20I%20would%20like%20to%20discuss%20my%20project%20requirements%20and%20explore%20how%20we%20can%20work%20together%20to%20bring%20my%20vision%20to%20reality." target="_blank">
+                          <p>+234 907 731 8070</p>
+                      </a>
+                  </div>
+                  
+                  
+              </div>
+              <!-- Location Box -->
+              <div class="icon-box">
+                  <a class="icon" href="https://goo.gl/maps/jeYQ5yFRLyZpATAP8"><i class="fa-solid fa-location-dot"></i></a>
+                  <div class="info">
+                      <h4>Location:</h4>
+                      <a href="https://goo.gl/maps/jeYQ5yFRLyZpATAP8"><p>Ajuwon Road, Nigeria</p></a>
+                  </div>
+              </div>
+              <div class="map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3962.7497392684368!2d3.3593481!3d6.6778961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9440a1b118bb%3A0x66550f4221712b91!2s123%20Akute%20-%20Ajuwon%20Rd%2C%20Iju%20112107%2C%20Agege%2C%20Ogun%20State!5e0!3m2!1sen!2sng!4v1692704740762!5m2!1sen!2sng" width="100%" height="250" style="box-shadow:3px 0 12px 0px gray;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+          </div>
+    
+          <!-- Right Col -->
+          <div class="contact-right">
+    
+              <form id="contact-form" action="" onsubmit="return validateForm()" name="contact" method="POST" data-netlify="true" autocomplete="on">
+                  <input type="text" name="form-name" id="name" placeholder="Name" required>
+                  <input type="email" name="form-name" id="email" placeholder="Email" required>
+                  <input type="text" name="form-name" id="subject" placeholder="Subject" required>
+                  <div class="we">
+                      <textarea name="msg" id="msg" rows="9" placeholder="Your Message" required></textarea>
+                      <i class="fa-solid fa-clock-rotate-left" onclick="clearTextarea()"></i>
+                  </div>
+                  <input type="submit" value="Submit" class="sub" id="submit-button">
+              </form>
+    
+          </div>
+          
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ====================CONTACT END========================= -->
+
+ 
+
+
+       <!-- Footer -->
+  <section class="mt-5 mb--5 feature" id="scrollspyfooter" data-bs-offset="100">
+        <footer class=" text-center text-lg-start text-white pt-4" style="background-color: #1c2331;">
+          <!-- Section: Social media -->
+          <section class="d-flex justify-content-between p-4" style="background-color: #a504f0;">
+            <!-- Left -->
+            <div class="me-5">
+              <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+      
+            <!-- Right -->
+            <div>
+              <a href="https://www.facebook.com/MathenaCoder" class="text-white me-4">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="https://www.twitter.com/MathenaCoder" class="text-white me-4">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="https://www.google.com/Mazino" class="text-white me-4">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="https://www.instagram.com/mathena_elegance_fed" class="text-white me-4">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/MathenaCoder" class="text-white me-4">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="https://www.github.com/mazinoux" class="text-white me-4">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <!-- Right -->
+          </section>
+          <!-- Section: Social media -->
+      
+          <!-- Section: Links  -->
+          <section class="">
+            <div class="container text-center text-md-start mt-5">
+              <!-- Grid row -->
+              <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <!-- Content -->
+                  <h6 class="text-uppercase fw-bold">Intuitive Probe</h6>
+                  <hr class="mb-4 mt-0 d-inline-block mx-auto" style="width: 60px; background-color: #622cf9; height: 2px"/>
+                    <p>
+                      Discover the world of coding and programming with Intuitive Probe's flexible online courses. Our platform empowers you to learn at your own pace, on your own time, opening doors to endless possibilities in the digital realm.
+                    </p>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold">Products</h6>
+                  <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                      style="width: 60px; background-color: #7c4dff; height: 2px"/>
+                  <p><a href="#" class="text-white">Home</a></p> 
+                  <p><a href="#scrollspyabout" class="text-white">About</a></p>
+                  <p><a href="#scrollspycourses" class="text-white">Courses</a></p>
+                  <p><a href="#scrollspycontact" class="text-white">Contact</a> </p>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold">Useful links</h6>
+                  <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                      style="width: 60px; background-color: #7c4dff; height: 2px"/>
+                  <p><a href="#!" class="text-white">Privacy & Policy</a> </p>
+                  <p><a href="#!" class="text-white">Settings</a></p>
+                  <p> <a href="#!" class="text-white">Orders</a></p>
+                  <p><a href="#!" class="text-white">Help</a></p>
+                </div>
+                <!-- Grid column -->
+      
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold">Contact</h6>
+                  <hr
+                      class="mb-4 mt-0 d-inline-block mx-auto"
+                      style="width: 60px; background-color: #7c4dff; height: 2px"
+                      />
+                  <p><i class="fas fa-home mr-3"></i> Ajuwon, NY Road, Nigeria</p>
+                  <p><i class="fas fa-envelope mr-3"></i> mazinoishioma@gmail.com</p>
+                  <p><i class="fas fa-phone mr-3"></i> + 234 810 469 4214</p>
+                  <p><i class="fas fa-print mr-3"></i> + 234 907 731 8070</p>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+          </section>
+          <!-- Section: Links  -->
+      
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2023 Copyright: <a class="text-white" href="https://eyesimulation.com">Mathenaditus.com</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+    </section>
+    
+  
+      <!-- Footer -->
+      <script>
+        // JavaScript to toggle the "fixed-navbar" class
+        window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar"); // Replace with your navbar selector
+        if (window.scrollY > 30) {
+          navbar.classList.add("fixed-navbar");
+        } else {
+          navbar.classList.remove("fixed-navbar");
+        }
+});
+
+      </script>
+    <script src="/B.JAVASCRIPT/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
+</body>
+</html>
