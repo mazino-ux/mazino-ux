@@ -27,6 +27,14 @@
 
 ---
 
+## 💻 **Most Used Languages**
+
+<p align="">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mazino-ux&layout=compact&theme=purple&hide_border=true" alt="Most Used Languages" />
+</p>
+
+---
+
 ## 🌍 **What I’m Exploring**  
 
 🚀 **Decentralized Applications (dApps)** – Bringing Web3 to life  
