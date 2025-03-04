@@ -27,11 +27,22 @@
 
 ---
 
-## 💻 **Most Used Languages**
+## 🚀 GitHub Stats  
 
-<p align="">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mazino-ux&layout=compact&theme=purple&hide_border=true" alt="Most Used Languages" />
+<p align="start">
+  <span>
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=mazino-ux&show_icons=true&theme=purple&hide_border=true" alt="GitHub Stats"/>
+  </span>
+  <span>
+    <img height="170" src="https://streak-stats.demolab.com?user=mazino-ux&theme=purple&hide_border=true" alt="GitHub Streak"/>
+  </span>
+  <span>
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mazino-ux&layout=compact&theme=purple&hide_border=true" alt="Most Used Languages"/>
+  </span>
 </p>
+
+
+
 
 ---
 
