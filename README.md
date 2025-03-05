@@ -20,7 +20,7 @@
 💻 **Tech Stack & Skills:**  
 - 🎨 **Frontend:** HTML, CSS, JavaScript, React, TypeScript, Tailwind CSS  
 - ⚙ **Backend:** Java (Spring Boot), Python  
-- 🗄 **Database:** MySQL  
+- 🗄 **Database:** MySQL, PostgreSQL  
 - 🔗 **Blockchain/Web3:** Smart Contracts, dApps  
 
 📚 Currently pursuing an **Advanced Diploma in Software Engineering (ADSE) at Aptech** to expand my expertise and make an impact in the world of **Web3 & AI**.  
