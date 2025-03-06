@@ -98,11 +98,8 @@
 
 
 
-  <a href="http://fund-me-puce.vercel.app/" target="_blank" 
-     style="text-decoration: none; display: inline-block; padding: 12px 24px; border-radius: 20px; background: linear-gradient(135deg, #a855f7, #d8b4fe); box-shadow: 0px 4px 10px rgba(168, 85, 247, 0.4); position: relative; overflow: hidden; transition: 0.3s;">
-    <span style="font-size: 18px; font-weight: bold; color: white; position: relative; z-index: 2;">
-      ✨ Sprinkle Some Magic 💜
-    </span>
-  </a>
+ [![✨💜 Sprinkle Some Magic ✨](https://img.shields.io/badge/%F0%9F%92%9C%20Sprinkle%20Some%20Magic-%23a855f7?style=for-the-badge&logo=sparkles&logoColor=white&color=a855f7&labelColor=d8b4fe&logoWidth=20&link=http://fund-me-puce.vercel.app/)](http://fund-me-puce.vercel.app/)
+
+
 
 
