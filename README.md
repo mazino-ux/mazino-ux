@@ -93,3 +93,14 @@
 ✨ When I’m not coding or working on blockchain projects, you’ll find me **experimenting with new tech, staying ahead of trends, worshipping, and pushing the boundaries of innovation!**  
 
 🚀 **Let’s connect, collaborate, and create something divine!** 💜✨
+
+---
+
+
+ <a href="http://fund-me-puce.vercel.app/" target="_blank" 
+   style="text-decoration: none;">
+  <img src="https://img.shields.io/badge/%F0%9F%8C%9F%20Sprinkle%20Some%20Magic-%23ff6f61?style=for-the-badge&logo=sparkles&logoColor=white&color=ff6f61&labelColor=ffcccb&logoWidth=20" 
+       alt="Sprinkle Some Magic" 
+       style="border-radius: 12px; box-shadow: 0px 4px 6px rgba(255, 111, 97, 0.3);"/>
+</a>
+
