@@ -34,10 +34,10 @@
     <img height="170" src="https://github-readme-stats.vercel.app/api?username=mazino-ux&show_icons=true&theme=purple&hide_border=true" alt="GitHub Stats"/>
   </span>
   <span>
-    <img height="170" src="https://streak-stats.demolab.com?user=mazino-ux&theme=purple&hide_border=true" alt="GitHub Streak"/>
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mazino-ux&layout=compact&theme=purple&hide_border=true" alt="Most Used Languages"/>
   </span>
   <span>
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mazino-ux&layout=compact&theme=purple&hide_border=true" alt="Most Used Languages"/>
+    <img height="170" src="https://streak-stats.demolab.com?user=mazino-ux&theme=purple&hide_border=true" alt="GitHub Streak"/>
   </span>
 </p>
 
