@@ -1,8 +1,15 @@
 <!-- 🚀 Hey there, I'm Mathena_TechSavvy! -->
+<!-- Clickable Bell Icon -->
+<p align="right">
+  <a href="http://fund-me-puce.vercel.app/" target="_blank" title="Support My Work">
+    🔔
+  </a>
+</p>
 <h1 align="center">
   ✨💜 <span style="color:#a855f7;">Welcome to My World</span> 💜✨  
   <br>I'm <span style="color:#a855f7;">Mathena_TechSavvy</span> 🚀  
 </h1>
+
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/eae520e0-db44-4758-80ed-e4a717305882" width="300" alt="Female Developer Illustration"/>
@@ -11,6 +18,7 @@
 <p align="center">
   <strong>👩‍💻 Full-Stack Developer | Blockchain Enthusiast | Web3 Explorer | Faith-Driven Innovator ✝️</strong>
 </p>
+
 
 ---
 
