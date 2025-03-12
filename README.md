@@ -1,4 +1,4 @@
-<!-- 🚀 Hey there, I'm Mathena_TechSavvy! -->
+
 <!-- Clickable Bell Icon -->
 <p align="right">
   <a href="http://fund-me-puce.vercel.app/" target="_blank" title="Support My Work">
