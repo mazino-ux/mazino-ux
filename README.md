@@ -6,7 +6,7 @@
   </a>
 </p>
 <h1 align="center">
-  ✨💜 <span style="color:#a855f7;">Welcome to My World</span> 💜✨!  
+  ✨💜 <span style="color:#a855f7;">Welcome to My World</span> 💜✨!! 
   <br>I'm <span style="color:#a855f7;">Mathena_TechSavvy</span> 🚀  
 </h1>
 
