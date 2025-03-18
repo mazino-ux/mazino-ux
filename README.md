@@ -5,10 +5,10 @@
     🔔
   </a>
 </p>
-<h1 align="center">
+<h2 align="center">
   ✨💜 <span style="color:#a855f7;">Welcome to My World</span> 💜✨!!
   <br>I'm <span style="color:#a855f7;">Mathena_TechSavvy</span> 🚀  
-</h1>
+</h2>
 
 
 <p align="center">
