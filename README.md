@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <strong>👩‍💻 Full-Stack Developer | Blockchain Enthusiast | Web3 Explorer | Faith-Driven Innovator ✝️</strong>
+  <strong>Full-Stack Developer 👩🏽‍💻 | SpringBoot Dev 💚 | Blockchain Enthusiast 🧮 | Web3 Explorer 🕸 | Faith-Driven Innovator ✝️</strong>
 </p>
 
 
