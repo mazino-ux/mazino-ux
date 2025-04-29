@@ -29,7 +29,9 @@
 - 🎨 **Frontend:** HTML, CSS, JavaScript, React, Nextjs, TypeScript, Tailwind CSS 
 - ⚙ **Backend:** Java (Spring Boot), Nodejs + Expressjs
 - 🗄 **Database:** MySQL, PostgreSQL, MongoDB  
-- 🔗 **Blockchain/Web3:** Smart Contracts, dApps  
+- 🔗 **Blockchain/Web3:** Smart Contracts, dApps
+- 📱 **Mobile Development:** Flutter, Dart 
+- ☁ **Cloud:** AWS (Amazon Web Services)
 - 👩🏽‍💻 **Tools & IDEs:** Visual Studio Code, Eclipse, Visual Code, Git, GitHub, Postman  
 - 🌐 **Platform:** Vercel, Firebase, Supabase, 
 
