@@ -26,10 +26,12 @@
 🌟 Hello, I'm **Mathena**, a passionate **Full-Stack Developer** driven by **faith, technology, and innovation**. My goal is to create **scalable, secure, and visually stunning applications** that enhance user experiences.  
 
 💻 **Tech Stack & Skills:**  
-- 🎨 **Frontend:** HTML, CSS, JavaScript, React, TypeScript, Tailwind CSS  
-- ⚙ **Backend:** Java (Spring Boot), Python  
-- 🗄 **Database:** MySQL, PostgreSQL  
+- 🎨 **Frontend:** HTML, CSS, JavaScript, React, Nextjs, TypeScript, Tailwind CSS 
+- ⚙ **Backend:** Java (Spring Boot), Nodejs + Expressjs
+- 🗄 **Database:** MySQL, PostgreSQL, MongoDB  
 - 🔗 **Blockchain/Web3:** Smart Contracts, dApps  
+- 👩🏽‍💻 **Tools & IDEs:** Visual Studio Code, Eclipse, Visual Code, Git, GitHub, Postman  
+- 🌐 **Platform:** Vercel, Firebase, Supabase, 
 
 📚 Currently pursuing an **Advanced Diploma in Software Engineering (ADSE) at Aptech** to expand my expertise and make an impact in the world of **Web3 & AI**.  
  <br/>
@@ -58,10 +60,10 @@
 ---
 
 ## 🌍 **What I’m Exploring**  
-
-🚀 **Decentralized Applications (dApps)** – Bringing Web3 to life  
-🔐 **Smart Contracts & Blockchain Security** – Ensuring trustless and secure systems  
+ 
 🛠 **Full-Stack Development** – Merging frontend elegance with backend power  
+🚀 **Decentralized Applications (dApps)** – Bringing Web3 to life  
+🔐 **Smart Contracts & Blockchain Security** – Ensuring trustless and secure systems 
 🙏 **Tech & Faith** – Using technology to **inspire, uplift, and glorify God**  
 
 ---
