@@ -32,8 +32,8 @@
 - 🔗 **Blockchain/Web3:** Smart Contracts, dApps
 - 📱 **Mobile Development:** Flutter, Dart 
 - ☁ **Cloud:** AWS (Amazon Web Services)
-- 👩🏽‍💻 **Tools & IDEs:** Visual Studio Code, Eclipse, Visual Code, Git, GitHub, Postman  
-- 🌐 **Platform:** Vercel, Firebase, Supabase, 
+- 👩🏽‍💻 **Tools & IDEs:** Visual Studio Code, Eclipse, Visual Studio, Pycharm, Git, GitHub, Postman  
+- 🌐 **Platform:** Vercel, Firebase, Supabase, Render
 
 📚 Currently pursuing an **Advanced Diploma in Software Engineering (ADSE) at Aptech** to expand my expertise and make an impact in the world of **Web3 & AI**.  
  <br/>
